@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Editar el codigo para poder hacer cambios en el sistema <code>src/App.js</code> and save to reload.
         </p>
         <label>{nombre}</label>
         <input></input>
