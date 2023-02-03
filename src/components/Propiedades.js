@@ -10,6 +10,9 @@ export default function Propiedades (props){
                 <li>{props.booleano}</li>
                 <li>{props.arreglo}</li>
                 <li>{props.objeto.nombre + " - " + props.objeto.correo}</li>
+                <li>{props.elementoReact}</li>
+                <li>{props.arreglo.map(props.funcion).join(', ')}</li>
+                <li>{props.componenteReact}</li>
             </ul>
         </div>
     );

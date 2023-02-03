@@ -39,7 +39,12 @@ function App() {
         numero = {19} 
         booleano = {true}
         arreglo = {[1,2,3]}
-        objeto = {{nombre: "Sergio", correo: "dr.sergio.valdovinos@gmail.com" }}/>
+        objeto = {{nombre: "Sergio", correo: "dr.sergio.valdovinos@gmail.com" }}
+        elementoReact = {<i>Esto es un elemento React</i>}
+        funcion = {(num) => num * num}
+        componenteReact = {<Componente msg = 'Soy un componente pasado como prop'/>}
+        />
+        
       </section>
       </header>
     </div>
