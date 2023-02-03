@@ -34,7 +34,12 @@ function App() {
         <section>
         <Componente msg = "Hola, soy un componente funcional expresado desde una prop"/>
         <br/>
-        <Propiedades/>
+        <Propiedades 
+        cadena = "Esto es una cadena de texto" 
+        numero = {19} 
+        booleano = {true}
+        arreglo = {[1,2,3]}
+        objeto = {{nombre: "Sergio", correo: "dr.sergio.valdovinos@gmail.com" }}/>
       </section>
       </header>
     </div>
